@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/ai/</loc>
+    <loc>/tags/ai/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/ai-tools/</loc>
+    <loc>/categories/ai-tools/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cursor/</loc>
+    <loc>/tags/cursor/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/cursor-ai-text-editor/</loc>
+    <loc>/posts/cursor-ai-text-editor/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/developer-experience/</loc>
+    <loc>/categories/developer-experience/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/development-tools/</loc>
+    <loc>/tags/development-tools/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/productivity/</loc>
+    <loc>/tags/productivity/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/programming/</loc>
+    <loc>/tags/programming/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/software/</loc>
+    <loc>/categories/software/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/text-editor/</loc>
+    <loc>/tags/text-editor/</loc>
     <lastmod>2025-09-26T19:30:00-06:00</lastmod>
   </url>
 </urlset>
