@@ -1,0 +1,14 @@
+---
+- name: Run ls command on target hosts
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: List files in home directory
+      ansible.builtin.command:
+        cmd: ls
+      register: ls_output
+
+    - name: Show output of ls
+      ansible.builtin.debug:
+        var: ls_output.stdout_lines

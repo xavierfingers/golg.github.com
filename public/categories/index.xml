@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Terminal</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 26 Sep 2025 19:30:00 -0600</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Tools</title>
-      <link>/categories/ai-tools/</link>
+      <link>//localhost:1313/categories/ai-tools/</link>
       <pubDate>Fri, 26 Sep 2025 19:30:00 -0600</pubDate>
-      <guid>/categories/ai-tools/</guid>
+      <guid>//localhost:1313/categories/ai-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer Experience</title>
-      <link>/categories/developer-experience/</link>
+      <link>//localhost:1313/categories/developer-experience/</link>
       <pubDate>Fri, 26 Sep 2025 19:30:00 -0600</pubDate>
-      <guid>/categories/developer-experience/</guid>
+      <guid>//localhost:1313/categories/developer-experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>/categories/software/</link>
+      <link>//localhost:1313/categories/software/</link>
       <pubDate>Fri, 26 Sep 2025 19:30:00 -0600</pubDate>
-      <guid>/categories/software/</guid>
+      <guid>//localhost:1313/categories/software/</guid>
       <description></description>
     </item>
   </channel>

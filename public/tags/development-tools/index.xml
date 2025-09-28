@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development Tools on Terminal</title>
-    <link>/tags/development-tools/</link>
+    <link>//localhost:1313/tags/development-tools/</link>
     <description>Recent content in Development Tools on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 26 Sep 2025 19:30:00 -0600</lastBuildDate>
-    <atom:link href="/tags/development-tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/development-tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cursor: The AI-Powered Text Editor Changing How Developers Code</title>
-      <link>/posts/cursor-ai-text-editor/</link>
+      <title>Cursor: The AI-Powered Text Editor Changing How Vibe-Coding Works.</title>
+      <link>//localhost:1313/posts/cursor-ai-text-editor/</link>
       <pubDate>Fri, 26 Sep 2025 19:30:00 -0600</pubDate>
-      <guid>/posts/cursor-ai-text-editor/</guid>
+      <guid>//localhost:1313/posts/cursor-ai-text-editor/</guid>
       <description></description>
     </item>
   </channel>
