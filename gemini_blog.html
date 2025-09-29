@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini CLI: Your New AI-Powered Command-Line Companion</title>
+    <link rel="stylesheet" href="gemini_style.css">
+</head>
+<body>
+    <header>
+        <h1>Gemini CLI: Your New AI-Powered Command-Line Companion</h1>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>What is Gemini CLI?</h2>
+                <p>The Gemini CLI is a powerful, context-aware command-line interface that brings the power of Google's Gemini models directly to your terminal. It's designed to streamline your workflow, automate tasks, and provide intelligent assistance for a wide range of software engineering and development tasks. Unlike traditional CLIs, Gemini CLI can understand natural language, reason about your codebase, and even execute commands on your behalf.</p>
+            </section>
+            <section>
+                <h2>Key Features</h2>
+                <ul>
+                    <li><strong>Natural Language Interaction:</strong> Converse with your CLI as you would with a human.</li>
+                    <li><strong>Code Understanding and Generation:</strong> Gemini can read, understand, and write code in various languages.</li>
+                    <li><strong>Filesystem Operations:</strong> Create, read, update, and delete files and directories.</li>
+                    <li><strong>Command Execution:</strong> Run shell commands and scripts.</li>
+                    <li><strong>Context-Awareness:</strong> Gemini remembers the context of your conversation and your project structure.</li>
+                    <li><strong>Extensibility:</strong> The tool is designed to be extensible with custom tools and commands.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Getting Started</h2>
+                <p>Getting started with Gemini CLI is straightforward. Once installed, you can initiate a session in your project directory. The CLI will immediately get familiarized with your project's context and file structure.</p>
+                <pre><code class="language-bash">gemini init</code></pre>
+            </section>
+            <section>
+                <h2>Use Cases</h2>
+                <h3>1. Code Refactoring</h3>
+                <p>You can ask Gemini to refactor your code. For example, you can ask it to convert a function from using `Promise` to `async/await` syntax.</p>
+                <pre><code class="language-javascript">// Old code
+function getData() {
+  return new Promise((resolve, reject) => {
+    fetch('https://api.example.com/data')
+      .then(response => response.json())
+      .then(data => resolve(data))
+      .catch(error => reject(error));
+  });
+}</code></pre>
+                <p>You can simply ask: "Refactor the `getData` function to use async/await."</p>
+                <pre><code class="language-javascript">// New code
+async function getData() {
+  try {
+    const response = await fetch('https://api.example.com/data');
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error(error);
+  }
+}</code></pre>
+                <h3>2. Writing Tests</h3>
+                <p>Gemini can help you write unit tests for your code. Just point it to a file and ask it to write tests for a specific function.</p>
+                <pre><code class="language-bash">gemini test src/utils.js --for-function "calculateTotal"</code></pre>
+                <h3>3. Debugging</h3>
+                <p>Stuck on a bug? Describe the problem to Gemini, and it can help you find the root cause by analyzing your code and suggesting potential fixes.</p>
+            </section>
+            <section>
+                <h2>The Future of AI in the CLI</h2>
+                <p>The Gemini CLI represents a significant step forward in the evolution of developer tools. As AI models become more powerful and integrated into our workflows, we can expect to see even more intelligent and proactive assistance from our command-line interfaces. The future is bright for AI-powered development, and the Gemini CLI is leading the way.</p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="gemini_script.js"></script>
+</body>
+</html>
